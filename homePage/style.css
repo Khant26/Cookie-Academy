@@ -428,8 +428,8 @@ body {
     margin-top: 251px;
     margin-left: 117px;
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto auto;
+    grid-template-columns: 417px 459px 459px;
+    grid-template-rows: auto auto 280px;
     /* background-color: #0000ff; */
 }
 
@@ -451,9 +451,8 @@ body {
 }
 
 .image-2 h1 {
-    display: inline;
-    width: 216px;
-    height: 50px;
+    margin-left: 97px;
+    margin-top: 45px;
     color: #413B3B;
     font-family: Poppins;
     font-size: 35px;
@@ -463,17 +462,93 @@ body {
     letter-spacing: 1.4px;
 }
 
+.brownBar {
+    margin-left: 144px;
+    margin-top: 27px;
+    width: 100px;
+    height: 10px;
+    flex-shrink: 0;
+    background: #413B3B;
+}
+
+.image-2 p {
+    width: 322px;
+    height: 136px;
+    flex-shrink: 0;
+    color: #413B3B;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    margin-top: 41px;
+    margin-left: 44px;
+}
+
 .imageBox .image-3 {
     grid-row-start: 1;
     grid-row-end: 3;
     background: #413B3B;
 }
 
+.image-3 h1 {
+    margin-left: 97px;
+    margin-top: 45px;
+    color: #B3BCC2;
+    font-family: Poppins;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.4px;
+}
+
+.greyBar {
+    margin-left: 144px;
+    margin-top: 27px;
+    width: 100px;
+    height: 10px;
+    flex-shrink: 0;
+    background: #B3BCC2;
+}
+
+.image-3 p {
+    width: 322px;
+    height: 136px;
+    flex-shrink: 0;
+    color: #B3BCC2;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.96px;
+    margin-top: 41px;
+    margin-left: 55px;
+}
+
 .imageBox .image-4 {
     grid-row-start: 3;
     grid-column-start: 2;
     grid-column-end: 4;
-    background-color: #260f82;
+}
+
+.image-4 {
+    margin-top: 66px;
+    margin-left: 140px;
+    width: 695px;
+    height: 162px;
+    flex-shrink: 0;
+    color: #413B3B;
+    font-family: Poppins;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 2px;
 }
 
 .footerBox {
@@ -481,7 +556,7 @@ body {
     flex-direction: column;
     height: 861px;
     width: 100%;
-    margin-top: 319px;
+    margin-top: 327px;
 }
 
 .footer-1 {
@@ -490,14 +565,110 @@ body {
     background-color: #009ac4;
 }
 
+.footer-1 img {
+    width: 100%;
+}
+
 .footer-2 {
-    height: 380px;
+    display: flex;
+    flex-direction: row;
+    height: 254px;
     flex-shrink: 0;
     background: #D00B0B;
+}
+
+.footer-2-img {
+    margin-top: 49px;
+    margin-left: 84px;
+}
+
+.footer-2-img img {
+    width: 106px;
+    height: 137px;
+    flex-shrink: 0;
+}
+
+.phone {
+    margin-top: 54px;
+    margin-left: 147px;
+}
+
+.address {
+    width: 334.322px;
+    height: 153px;
+    flex-shrink: 0;
+    margin-top: 55px;
+    margin-left: 165px;
+}
+
+.address h2 {
+    margin: 0%;
+    padding: 0%;
+    color: #EEE8E8;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 1.44px;
+}
+
+.address p {
+    margin: 0%;
+    padding: 0%;
+    color: #EEE8E8;
+    font-family: Poppins;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1.04px;
+}
+
+.follow {
+    display: flex;
+    flex-direction: column;
+}
+
+.followUs {
+    width: 172.196px;
+    color: #EEE8E8;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.2px;
+    margin-top: 66px;
+    margin-left: 210px;
+}
+
+.icon {
+    margin-left: 205px;
+    margin-top: 0;
+    display: grid;
+    grid-template-columns: 59px 59px 59px;
+    grid-template-rows: 55px;
+}
+
+.yt {
+    margin-top: 4px;
 }
 
 .footer-3 {
     flex-shrink: 0;
     height: 128px;
     background: #740303;
+}
+
+.copyRights {
+    margin-top: 45px;
+    text-align: center;
+    color: #EEE8E8;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
